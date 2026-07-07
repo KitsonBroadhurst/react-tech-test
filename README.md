@@ -10,6 +10,22 @@ It is split into two parts:
 The app already includes React, TypeScript, Vite, React Router, Tailwind CSS, and
 MSW. The mock API is available in development mode.
 
+## Prerequisites
+
+Before starting, make sure you have:
+
+- Git, to clone the repository.
+- Node.js `20.19.0` or newer on Node 20, or `22.12.0` or newer on Node 22.
+- npm, which is normally installed with Node.js.
+
+You can check your installed versions with:
+
+```bash
+git --version
+node --version
+npm --version
+```
+
 ## Getting Started
 
 ```bash
