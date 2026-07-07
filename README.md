@@ -1,4 +1,4 @@
-# React Agents Tech Test
+# React UI Tech Test
 
 This is a small React tech test designed to take roughly one hour.
 
@@ -55,21 +55,21 @@ Response:
 
 ```ts
 type AgentsResponse = {
-  items: AgentSummary[]
-  page: number
-  pageSize: number
-  total: number
-  totalPages: number
-}
+  items: AgentSummary[];
+  page: number;
+  pageSize: number;
+  total: number;
+  totalPages: number;
+};
 
 type AgentSummary = {
-  id: string
-  name: string
-  role: string
-  model: string
-  status: 'available' | 'busy' | 'offline'
-  shortDescription: string
-}
+  id: string;
+  name: string;
+  role: string;
+  model: string;
+  status: "available" | "busy" | "offline";
+  shortDescription: string;
+};
 ```
 
 ### Get Agent
@@ -82,16 +82,16 @@ Response:
 
 ```ts
 type AgentDetail = AgentSummary & {
-  createdBy: string
-  version: string
-  capabilities: string[]
-  tools: string[]
-  memoryPolicy: string
-  averageRunTimeSeconds: number
-  successRate: number
-  lastRunAt: string
-  description: string
-}
+  createdBy: string;
+  version: string;
+  capabilities: string[];
+  tools: string[];
+  memoryPolicy: string;
+  averageRunTimeSeconds: number;
+  successRate: number;
+  lastRunAt: string;
+  description: string;
+};
 ```
 
 ## Starting Points
